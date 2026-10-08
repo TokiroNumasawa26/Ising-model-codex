@@ -1,0 +1,31 @@
+{
+  "sites": 32,
+  "J": 1.0,
+  "h": 1.0,
+  "boundary": "open",
+  "hamiltonian": "-J sum Z_i Z_(i+1) - h sum X_i (Pauli)",
+  "energy": -40.38431316110322,
+  "converged": true,
+  "sweep_energies": [
+    -40.357167395822344,
+    -40.38414715357464,
+    -40.38431004770607,
+    -40.38431312218782,
+    -40.38431316106422,
+    -40.38431316110322
+  ],
+  "max_bond": 18,
+  "entropy_units": "nats",
+  "half_chain_entropy": 0.48571812802871944,
+  "max_abs_mean_Z": 1.0501054199529847e-06,
+  "validation_8_sites": {
+    "energy_abs_error": 2.751576744230988e-12,
+    "entropy_max_abs_error": 1.371952551565414e-10,
+    "zz_max_abs_error": 1.5342072988422384e-07
+  },
+  "validation_32_sites": {
+    "energy_abs_error_analytic": 1.1424816648286651e-10,
+    "entropy_max_change_tighter_run": 1.4381586477263397e-09,
+    "zz_max_change_tighter_run": 5.052191071053258e-08
+  }
+}
